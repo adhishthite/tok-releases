@@ -15,5 +15,5 @@ GitHub credential is required by the app to download published releases.
 
 ## Third-party notices
 
-The app includes code derived from JustSpeak and uses Sparkle. Their license
-notices are included in `notices/` and in the application bundle.
+Tok uses Sparkle for software updates. License notices are included in
+`notices/` and in the application bundle.
