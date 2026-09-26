@@ -1,19 +1,30 @@
 # Tok downloads
 
 Tok is a native macOS push-to-talk dictation app with a Gemini backend.
+Hold a key, speak, and release to paste.
 
-This repository hosts signed binary releases and update metadata. Application
-source and development history are maintained separately in a private repository.
+**macOS 14 or later · Apple silicon and Intel · Your own Gemini API key**
 
-No download is published yet. Installation, automatic-update, accessibility, and
-performance acceptance checks are still in progress. Declared platform support
-is macOS 14 or later, with Apple silicon and Intel binaries; actual tested OS and
-architecture coverage will be recorded for each release.
+[Download Tok](https://github.com/adhishthite/tok-releases/releases/latest/download/Tok.dmg)
+· [Release notes](https://github.com/adhishthite/tok-releases/releases/latest)
+· [Source](https://github.com/adhishthite/tok)
 
-Release publication is manual. Updates use HTTPS and Sparkle signatures. No
-GitHub credential is required by the app to download published releases.
+This repository hosts signed, notarized binary releases and the Sparkle update
+feed. Source code, documentation, and issue tracking live in
+[adhishthite/tok](https://github.com/adhishthite/tok).
 
-## Third-party notices
+## Install
 
-Tok uses Sparkle for software updates. License notices are included in
-`notices/` and in the application bundle.
+1. Download `Tok.dmg` from the latest release.
+2. Open the DMG and drag Tok into Applications.
+3. Launch Tok and follow setup.
+
+Each release includes `checksums.txt` with SHA-256 hashes for its assets.
+Installed copies update through Sparkle over HTTPS, with signed feeds and
+archives. The app needs no GitHub credential to download releases.
+
+## License
+
+Tok is licensed under the [Apache License 2.0](LICENSE). Tok uses Sparkle for
+software updates. License notices are in `notices/` and in the application
+bundle.
